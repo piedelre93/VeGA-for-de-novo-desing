@@ -131,7 +131,7 @@ For detailed descriptions of each parameter, refer to the VeGA research publicat
 
 🛠️ **User-defined modifications:**
 
--`SMILES_FILE` Path to the .smi or .txt file containing your custom training dataset |
+- `SMILES_FILE` Path to the .smi or .txt file containing your custom training dataset |
 - `Epochs` Number of training epochs. You can reduce this for quicker testing |
 
 ### 🔹 Cell 3: Transformer Architecture
