@@ -10,7 +10,7 @@ First, download the codebase. Then, use conda to set up a new environment for Ve
 conda env create -f enviroment.yml  
 conda activate vega
 python -m pip install tensorflow[and-cuda]  
-conda install jupyter-notebook  
+conda install -c conda-forge jupyter notebook
 ```
 
 Now, you can launch one of the three notebooks (e.g., `gen.ipynb`) using Jupyter Notebook.
