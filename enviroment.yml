@@ -1,4 +1,4 @@
-name: VeGA          # nome ambiente
+name: vega          # nome ambiente
 channels:
   - conda-forge                   # conviene usare solo conda-forge
 dependencies:
