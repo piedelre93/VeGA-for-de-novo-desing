@@ -8,7 +8,7 @@ First, download the codebase. Then, use conda to set up a new environment for Ve
 
 ```bash
 conda env create -f environment.yml  
-conda activate smiles-transformer  
+conda activate vega
 python -m pip install tensorflow[and-cuda]  
 conda install jupyter-notebook  
 ```
