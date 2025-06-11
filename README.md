@@ -7,7 +7,7 @@ This document will guide you through installing and using VeGA, a new open-sourc
 First, download the codebase. Then, use conda to set up a new environment for VeGA. If you're new to conda, we recommend checking out [this tutorial](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html) before proceeding.
 
 ```bash
-conda env create -f environment.yml  
+conda env create -f enviroment.yml  
 conda activate vega
 python -m pip install tensorflow[and-cuda]  
 conda install jupyter-notebook  
