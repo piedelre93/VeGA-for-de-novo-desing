@@ -26,7 +26,7 @@ Before running the code, modify **Cell 1** by specifying the paths to the follow
 - `idx2char_path` 
 - `vocab_path` 
 
-These files are provided in the repository under the `model_ChEMBLDB`/model_COCONUT folder.
+These files are provided in the repository in `model_ChEMBLDB` and `model_COCONUT` folder.
 
 - `max_length` corresponds to the maximum sequence length for generation and varies depending on the model. 
 - `training_file` should point to the dataset used during training (required for novelty calculations). 
