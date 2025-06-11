@@ -114,7 +114,6 @@ This notebook allows you to fine-tune a pre-trained Transformer model on your ow
 ### 🔹 Cell 1: Set File Paths
 Before executing this cell, update the following file paths according to your local setup:
 
-|-----------|-------------|
 | `model_path` | Path to the pre-trained base model to start fine-tuning from |
 | `char2idx_path` | Path to the character-to-index mapping pickle file |
 | `idx2char_path` | Path to the index-to-character mapping pickle file |
@@ -132,7 +131,6 @@ For detailed descriptions of each parameter, refer to the VeGA research publicat
 
 🛠️ **User-defined modifications:**
 
-|-----------|-------------|
 | `SMILES_FILE` | Path to the .smi or .txt file containing your custom training dataset |
 | `Epochs` | Number of training epochs. You can reduce this for quicker testing |
 
