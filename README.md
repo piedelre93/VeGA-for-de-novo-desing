@@ -113,12 +113,12 @@ This notebook allows you to fine-tune a pre-trained Transformer model on your ow
 
 ### 🔹 Cell 1: Set File Paths
 Before executing this cell, update the following file paths according to your local setup:
-|....|....|
-| `model_path` | Path to the pre-trained base model to start fine-tuning from |
-| `char2idx_path` | Path to the character-to-index mapping pickle file |
-| `idx2char_path` | Path to the index-to-character mapping pickle file |
-| `vocab_path` | Path to the vocabulary JSON file |
-| `model_out_path` | Destination path where the fine-tuned model will be saved |
+
+`model_path` Path to the pre-trained base model to start fine-tuning from |
+`char2idx_path` Path to the character-to-index mapping pickle file |
+`idx2char_path` Path to the index-to-character mapping pickle file |
+`vocab_path` Path to the vocabulary JSON file |
+`model_out_path` Destination path where the fine-tuned model will be saved |
 
 ✅ **Make sure all these files are correctly set before running the cell, otherwise the training may fail.**
 
