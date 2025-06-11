@@ -1,0 +1,34 @@
+name: VeGA          # nome ambiente
+channels:
+  - conda-forge                   # conviene usare solo conda-forge
+dependencies:
+  # versione Python testata con RDKit + TF
+  - python=3.9
+
+  # librerie scientifiche base
+  - numpy                         # già richiesto da TF/SciKit
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - seaborn                       # opzionale, per plot più carini
+
+  # RDKit (build CPU)
+  - rdkit=2023.09.2
+
+  # TensorFlow (CPU)
+  - keras                         # in realtà incluso, ma esplicitiamolo
+
+  # notebook / IDE
+  - jupyterlab                    # facoltativo ma comodo
+
+  # dipendenze “sparse”
+  - regex                         # back-end di re per tokenizzazione veloce
+  - pip                           # per eventuali extra via pip
+
+  # pacchetti pip che non esistono in conda-forge (se servissero)
+  # pip:
+  #   - transformers
+  #   - ...
+  
+  
