@@ -1,0 +1,43 @@
+{
+    "run_type": "transfer_learning",
+    "device": "cpu",
+    "use_cuda": true,
+    "tb_logdir": "TensoBoard_TL",
+    "json_out_config": "TL_input.json",
+    "seed": null,
+    "parameters": {
+        "num_epochs": 35,
+        "batch_size": 10,
+        "input_model_file": "/home/grad/Desktop/pietro/denovo/r4/REINVENT4-main_1/REINVENT4-main/priors/reinvent.prior",
+        "output_model_file": "2/TL_Reinvent_mapk1.model",
+        "smiles_file": "/home/grad/Desktop/pietro/denovo/s4-for-de-novo-drug-design/deliverables(1)/deliverables/data/mapk1/setup-9/train.txt",
+        "sample_batch_size": 100,
+        "save_every_n_epochs": 5,
+        "starting_epoch": 1,
+        "shuffle_each_epoch": true,
+        "num_refs": 50,
+        "validation_smiles_file": null,
+        "standardize_smiles": true,
+        "randomize_smiles": true,
+        "randomize_all_smiles": false,
+        "internal_diversity": false,
+        "max_sequence_length": 128,
+        "clip_gradient_norm": 1.0,
+        "pairs": {
+            "type": "tanimoto",
+            "upper_threshold": 1.0,
+            "lower_threshold": 0.7,
+            "min_cardinality": 1,
+            "max_cardinality": 199
+        },
+        "ranking_loss_penalty": false,
+        "n_cpus": 1
+    },
+    "scoring": null,
+    "scheduler": {},
+    "responder": null,
+    "stage": null,
+    "learning_strategy": null,
+    "diversity_filter": null,
+    "inception": null
+}
